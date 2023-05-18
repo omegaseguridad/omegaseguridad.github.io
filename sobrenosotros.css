@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+  --red-pantone: hsla(355, 78%, 56%, 1);
+  --honeydew: hsla(105, 55%, 96%, 1);
+  --non-photo-blue: hsla(182, 43%, 76%, 1);
+  --cerulean: hsla(203, 39%, 44%, 1);
+  --berkeley-blue: hsla(215, 50%, 23%, 1);
+}
+
+body{
+    font-family: Open Sans,Arial,sans-serif;
+    font-size: 16px;
+    color: #666;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: no;
+  color: black;
+}
+
+/* clases del header */
+
+
+.logo {
+  width: 3em;
+  padding: .3em;
+}
+
+#barra2 {
+  position: fixed;
+
+}
+
+#bannertop {
+  background: url(img/secutiry-lan.jpg);
+  min-height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+#text1 {
+  color: #00fffb;
+}
+
+#fondo {
+  background-color: rgba(0, 0, 0, 0.67);
+  margin-top: 120px;
+  margin-bottom: 80px;
+  padding-left: 10px;
+  padding-top: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+#segu {
+  font-size: 140%
+}
+
+#exp {
+    background-color: rgb(240, 239, 239);
+    font-size: 18px;
+
+  }
+
+
+
+
+  #copyright {
+    background: rgb(0,0,0);
+background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,57,57,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,57,57,1) 100%);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,57,57,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#393939",GradientType=1);
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#linea {
+  border-top: 4px solid #9e9e9e;
+  max-width: 400px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+
+}
+
+#th3{
+  font-size: 30px;
+  color: #00bac6 !important;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+#mapa{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 70px;
+  padding-top: 20px;
+
+}
