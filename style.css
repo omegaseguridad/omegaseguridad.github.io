@@ -30,6 +30,7 @@ a {
 .logo {
   width: 3em;
   padding: .3em;
+  border-radius: 50%;
 }
 
 #barra1 {
