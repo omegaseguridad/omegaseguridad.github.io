@@ -170,10 +170,6 @@ background: radial-gradient(circle, rgba(236,246,255,1) 70%, rgba(255,255,255,1)
   background-color: var(--non-photo-blue);
 }
 
-.bg-nosotros>ul>li>a {
-  color: black;
-}
-
 #copyright {
   background: rgb(0,0,0);
   background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,57,57,1) 100%);
@@ -187,4 +183,3 @@ background: radial-gradient(circle, rgba(236,246,255,1) 70%, rgba(255,255,255,1)
   align-items: center;
   padding: 20px;
 }
-
