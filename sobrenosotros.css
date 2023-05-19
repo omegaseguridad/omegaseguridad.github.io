@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
 :root {
   --red-pantone: hsla(355, 78%, 56%, 1);
@@ -28,6 +29,7 @@ a {
 .logo {
   width: 3em;
   padding: .3em;
+  border-radius: 50%;
 }
 
 #barra2 {
@@ -70,8 +72,6 @@ a {
     font-size: 18px;
 
   }
-
-
 
 
   #copyright {
