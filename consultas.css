@@ -11,8 +11,8 @@
 
 .body{
 font-family: Open Sans, Arial, sans-serif;
-font-size: 16px;
-color: #666;
+  font-size: 16px;
+  color: #666;
 }
 
 
@@ -21,10 +21,6 @@ ul {
   font-size: 16px;
 }
 
-a {
-  text-decoration: no;
-  color: black;
-}
 
 /* clases del header */
 
@@ -61,18 +57,13 @@ a {
   padding-top: 70px;
 }
 
-a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
 #segu {
   font-size: 140%
 }
 
 /*lista canales de contacto*/
 #grad{
-  background: rgb(184,186,194);
+  background: rgba(0, 0, 0, 0.67);
   background: -moz-radial-gradient(circle, rgba(184,186,194,1) 4%, rgba(255,255,255,1) 86%);
   background: -webkit-radial-gradient(circle, rgba(184,186,194,1) 4%, rgba(255,255,255,1) 86%);
   background: radial-gradient(circle, rgba(184,186,194,1) 4%, rgba(255,255,255,1) 86%);
@@ -88,7 +79,11 @@ a {
   padding-bottom: 30px;
 }
 
-
+#escudo-contac{
+ width: 200px;
+ margin-left: 65px;
+ border-radius: 50%;
+}
 
 #canales{
   margin-top: 3vh;
@@ -111,7 +106,7 @@ a {
 }
 
 .link:hover{
-  background-color: rgba(21, 75, 224, 0.67);
+  background-color: rgba(21, 150, 224, 0.67);
   transform: scale(1.05);
   transition-duration: 0.5s;
 }
@@ -148,6 +143,37 @@ margin-top: 5vh;
   border-color: black;
 }
 
-#lfijo{
-  justify-content: right;
+
+
+#th3-real {
+  color: #00bac6 !important;
+  
+}
+
+#th3-rec{
+  color: #00bac6 !important;
+}
+
+ul {
+  list-style-type:none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+a:hover{
+  color:#00bac6;
+}
+
+#escudo-f{
+  width: 10em;
+  padding: .10em;
+  border-radius: 50%;
+
+}
+
+#texto{
+  color: #666;
 }

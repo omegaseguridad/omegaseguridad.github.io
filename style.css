@@ -15,7 +15,7 @@ body {
 }
 
 ul {
-  list-style: disc;
+  list-style-type:none;
 }
 
 a {
@@ -62,10 +62,6 @@ a {
 
 #bprueba{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
 }
 
 #segu {
@@ -143,33 +139,28 @@ background: radial-gradient(circle, rgba(236,246,255,1) 70%, rgba(255,255,255,1)
 }
 
 #img-servicios {
-  width: 128px;
-  forced-color-adjust: blue;
+  width: 150px;
 }
 
 #th3-real {
-  font-weight: 600;
   color: #00bac6 !important;
-  font-style:oblique;
+  
 }
 
+#th3-rec{
+  color: #00bac6 !important;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+a:hover{
+  color:#00bac6;
+}
 
 /* footer */
-.bg-recursos {
-  background-color: var(--berkeley-blue);
-}
-
-.bg-recursos>ul>li>a,
-.bg-recursos>ul>li>h4 {
-
-  color: white
-}
-
-
-.bg-nosotros {
-  background-color: var(--non-photo-blue);
-}
-
 #copyright {
   background: rgb(0,0,0);
   background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,57,57,1) 100%);
@@ -182,4 +173,11 @@ background: radial-gradient(circle, rgba(236,246,255,1) 70%, rgba(255,255,255,1)
   justify-content: center;
   align-items: center;
   padding: 20px;
+}
+
+#escudo-f{
+  width: 10em;
+  padding: .10em;
+  border-radius: 50%;
+
 }
