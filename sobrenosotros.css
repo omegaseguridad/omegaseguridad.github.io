@@ -127,7 +127,8 @@ a {
   color: rgb(255, 255, 255);
 }
 
-a:hover{
+
+.link2:hover{
   color:#00bac6;
 }
 
