@@ -92,13 +92,14 @@ ul {
 }
 
 .link{
-  width: 80%;
-  margin-left: 10%;
+  width: 60%;
+  height: 10%;
+  margin-left: 20%;
   font-size: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 3vh;
-  background-color: rgb(24, 24, 26);
+  background-color: rgb(48, 45, 45);
   border-radius: 5px;
   border: 2px solid rgb(45, 102, 175);
   color: rgb(207, 207, 207);
@@ -106,9 +107,10 @@ ul {
 }
 
 .link:hover{
-  background-color: rgba(21, 150, 224, 0.67);
-  transform: scale(1.05);
+  background-color: rgba(21, 160, 224, 0.67);
+  transform: scale(1.03);
   transition-duration: 0.5s;
+  color:black
 }
 
 #copyright {
@@ -163,7 +165,7 @@ a {
   color: rgb(255, 255, 255);
 }
 
-a:hover{
+.link2:hover{
   color:#00bac6;
 }
 
