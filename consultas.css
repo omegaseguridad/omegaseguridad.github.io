@@ -61,6 +61,10 @@ ul {
   font-size: 140%
 }
 
+#si-quieres{
+  font-size: 100%;
+  color: slategrey;
+}
 /*lista canales de contacto*/
 #grad{
   background: rgba(0, 0, 0, 0.67);
