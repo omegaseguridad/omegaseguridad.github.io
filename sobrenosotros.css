@@ -138,3 +138,13 @@ a {
   border-radius: 50%;
 
 }
+
+body::-webkit-scrollbar{
+  width: 10px;
+  background: #383838;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #00a2b1;
+  border-radius: 5px;
+}
