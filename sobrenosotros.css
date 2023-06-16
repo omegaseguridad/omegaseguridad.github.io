@@ -88,14 +88,22 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     padding: 20px;
 }
 
+
 #linea {
   border-top: 4px solid #9e9e9e;
-  max-width: 400px;
+  max-width: 200px;
   padding-top: 10px;
   padding-bottom: 30px;
 
 }
 
+@media (max-width:600px){
+  #linea{
+    margin-left: 130px;
+    align-items: center;
+    justify-content: center;
+  }
+}
 #th3{
   font-size: 30px;
   color: #00bac6 !important;
