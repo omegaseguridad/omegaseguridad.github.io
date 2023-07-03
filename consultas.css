@@ -63,7 +63,7 @@ ul {
 
 #si-quieres{
   font-size: 100%;
-  color: slategrey;
+  color: rgba(0, 117, 153, 0.671);
 }
 /*lista canales de contacto*/
 #grad{
@@ -72,15 +72,18 @@ ul {
   background: -webkit-radial-gradient(circle, rgba(184,186,194,1) 4%, rgba(255,255,255,1) 86%);
   background: radial-gradient(circle, rgba(184,186,194,1) 4%, rgba(255,255,255,1) 86%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b8bac2",endColorstr="#ffffff",GradientType=1);
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
 }
 
 #linktree{
 
-  background-color: rgba(177, 171, 171, 0.67);
-  border-radius: 10px;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  padding-bottom: 30px;
+  background-color: rgba(136, 177, 177, 0.67);
+  border-radius: 50px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  height: 450px;
 }
 
 #escudo-contac{
@@ -90,8 +93,9 @@ ul {
 }
 
 #canales{
-  margin-top: 3vh;
+  margin-top: 2vh;
   text-align: center;
+  justify-content: center;
   
 }
 
@@ -100,21 +104,21 @@ ul {
   height: 10%;
   margin-left: 20%;
   font-size: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   margin-top: 3vh;
   background-color: rgb(48, 45, 45);
-  border-radius: 5px;
-  border: 2px solid rgb(45, 102, 175);
+  border-radius: 100px;
+  border: 2px solid rgb(255, 255, 255);
   color: rgb(207, 207, 207);
   cursor: pointer;
 }
 
 .link:hover{
-  background-color: rgba(21, 160, 224, 0.67);
-  transform: scale(1.03);
+  background-color: rgb(0, 170, 182);
+  transform: scale(1.02);
   transition-duration: 0.5s;
-  color:black
+  color:rgba(0, 0, 0, 0.63);
+  font-size: 20px;
+  border-color: #383838;
 }
 
 #copyright {
