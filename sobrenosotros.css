@@ -38,11 +38,16 @@ a {
 }
 
 #bannertop {
-  background: url(img/secutiry-lan.jpg);
+  
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.479)),
+  url('img/secutiry-lan.jpg');
   min-height: 50vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  justify-content: end;
+  box-shadow: 50px 50px 500px #ff0000 !important; 
 
 }
 
@@ -55,7 +60,17 @@ a {
   margin-top: 120px;
   margin-bottom: 80px;
   padding-left: 10px;
-  padding-top: 70px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  margin-right: 100px;
+}
+
+@media (max-width:800px){
+  #fondo{
+    margin-right: 0;
+    
+  }
 }
 
 a {

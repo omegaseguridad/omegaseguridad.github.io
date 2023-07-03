@@ -39,11 +39,16 @@ a {
 }
 
 #bannertop {
-  background: url(img/secutiry-lan.jpg);
+  
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.479)),
+  url('img/secutiry-lan.jpg');
   min-height: 50vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  box-shadow: 0px 10px 112px rgb(0, 0, 0);
+  justify-content: end;
 
 }
 
@@ -58,6 +63,15 @@ a {
   padding-left: 10px;
   padding-top: 50px;
   padding-bottom: 20px;
+  border-radius: 15px;
+  margin-right: 100px;
+}
+
+@media (max-width:800px){
+  #fondo{
+    margin-right: 0;
+    
+  }
 }
 
 #bprueba{
@@ -69,10 +83,10 @@ a {
 }
 
 #presentacion {
-  background: rgb(43,128,184);
+  background: rgba(43, 128, 184, 0.493);
   background: -moz-linear-gradient(0deg, rgba(43,128,184,1) 9%, rgba(46,202,224,1) 100%);
   background: -webkit-linear-gradient(0deg, rgba(43,128,184,1) 9%, rgba(46,202,224,1) 100%);
-  background: linear-gradient(0deg, rgba(43,128,184,1) 9%, rgba(46,202,224,1) 100%);
+  background: linear-gradient(0deg, rgba(43, 128, 184, 0.295) 9%, rgba(46, 203, 224, 0.644) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2b80b8",endColorstr="#2ecae0",GradientType=1);
   padding-top: 40px;
   padding-bottom: 40px;
@@ -93,9 +107,9 @@ a {
 }
 
 #capacitado {
-
+  
   background: rgb(236,246,255);
-background: radial-gradient(circle, rgba(236,246,255,1) 70%, rgba(255,255,255,1) 100%);
+  background: radial-gradient(circle, rgba(236,246,255,1) 70%, rgba(255,255,255,1) 100%);
 }
 
 #linea-personal {
@@ -123,6 +137,7 @@ background: radial-gradient(circle, rgba(236,246,255,1) 70%, rgba(255,255,255,1)
   padding-right: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
+  border-radius: 15px;
 }
 
 
