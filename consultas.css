@@ -33,16 +33,21 @@ ul {
 
 #barra1 {
   position: fixed;
-
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
 }
 
 #bannertop {
-  background: url(img/secutiry-lan.jpg);
+  
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.479)),
+  url('img/secutiry-lan.jpg');
   min-height: 50vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
+  justify-content: end;
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
+  
 }
 
 #text1 {
@@ -54,7 +59,18 @@ ul {
   margin-top: 120px;
   margin-bottom: 80px;
   padding-left: 10px;
-  padding-top: 70px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  margin-right: 100px;
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
+@media (max-width:800px){
+  #fondo{
+    margin-right: 0;
+    
+  }
 }
 
 #segu {
@@ -75,22 +91,20 @@ ul {
   justify-content: center;
   align-items: center;
   padding: 40px;
+  box-shadow: 0px -15px 80px rgb(0, 0, 0);
 }
 
 #linktree{
 
-  background-color: rgba(136, 177, 177, 0.67);
-  border-radius: 50px;
+  background-color: rgba(189, 189, 189, 0.67);
+  border-radius: 25px;
   margin-top: 2vh;
   margin-bottom: 2vh;
   height: 450px;
+  max-width: 500px;
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
 }
 
-#escudo-contac{
- width: 200px;
- margin-left: 65px;
- border-radius: 50%;
-}
 
 #canales{
   margin-top: 2vh;
@@ -100,20 +114,21 @@ ul {
 }
 
 .link{
-  width: 60%;
+  width: 80%;
   height: 10%;
-  margin-left: 20%;
+  margin-left: 10%;
   font-size: 20px;
   margin-top: 3vh;
   background-color: rgb(48, 45, 45);
-  border-radius: 100px;
-  border: 2px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  border: none;
   color: rgb(207, 207, 207);
   cursor: pointer;
+  box-shadow: 0px 0px 8px rgb(0, 0, 0);
 }
 
 .link:hover{
-  background-color: rgb(0, 170, 182);
+  background-color: rgba(4, 183, 196, 0.425);
   transform: scale(1.02);
   transition-duration: 0.5s;
   color:rgba(0, 0, 0, 0.63);
@@ -137,7 +152,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 
 #contac {
 
-margin-top: 5vh;
+
 }
 
 
@@ -149,7 +164,9 @@ margin-top: 5vh;
 
 }
 
-#nombre-consulta:hover{
+input:hover,
+select:hover,
+textarea:hover{
   border-color: black;
 }
 
@@ -188,7 +205,10 @@ a {
   color: #666;
 }
 
-
+#formulario-consulta{
+  background-color: #02595f8e;
+  border-radius: 50px;
+}
 body::-webkit-scrollbar{
   width: 10px;
   background: #383838;

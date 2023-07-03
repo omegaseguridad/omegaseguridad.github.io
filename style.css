@@ -35,7 +35,7 @@ a {
 
 #barra1 {
   position: fixed;
-
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
 }
 
 #bannertop {
@@ -65,6 +65,7 @@ a {
   padding-bottom: 20px;
   border-radius: 15px;
   margin-right: 100px;
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
 }
 
 @media (max-width:800px){

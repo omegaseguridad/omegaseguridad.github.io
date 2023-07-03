@@ -34,7 +34,7 @@ a {
 
 #barra2 {
   position: fixed;
-
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
 }
 
 #bannertop {
@@ -47,7 +47,8 @@ a {
   background-position: center;
   background-size: cover;
   justify-content: end;
-  box-shadow: 50px 50px 500px #ff0000 !important; 
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
+  
 
 }
 
