@@ -24,6 +24,23 @@ a {
   color: black;
 }
 
+.mostrarAbajo{
+  animation: mostrarAbajo 1.5S;
+}
+
+@keyframes mostrarAbajo {
+  0% {
+      transform: translateY(+150px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+.articulo1{
+  opacity: 0;
+  transition: all 1.5s;
+}
 /* clases del header */
 
 

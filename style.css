@@ -98,8 +98,45 @@ a {
 }
 
 #perso {
-
   padding-top: 100px;
+  
+}
+
+.izq{
+  opacity: 0;
+  transition: all 1.5s;
+}
+
+
+.articulo2{
+  opacity: 0;
+  transition: all 1.5s;
+}
+
+.mostrarIzquierda{
+  animation: mostrarIzquierda 1.5s;
+}
+
+@keyframes mostrarIzquierda {
+  0% {
+    transform: translateX(-150px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.mostrarDerecha{
+  animation: mostrarDerecha 1.5s;
+}
+
+@keyframes mostrarDerecha {
+  0% {
+    transform: translateX(+150px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 #text2 {
@@ -108,7 +145,8 @@ a {
 }
 
 #capacitado {
-  
+  opacity: 0;
+  transition: all 1.5s;
   background: rgb(236,246,255);
   background: radial-gradient(circle, rgba(236,246,255,1) 70%, rgba(255,255,255,1) 100%);
 }

@@ -22,6 +22,57 @@ a {
   text-decoration: no;
   color: black;
 }
+.izq{
+  opacity: 0;
+  transition: all 1.5s;
+}
+
+.articulo2,
+.articulo1{
+  opacity: 0;
+  transition: all 1.5s;
+}
+
+.mostrarAbajo{
+  animation: mostrarAbajo 1.5S;
+}
+
+@keyframes mostrarAbajo {
+  0% {
+      transform: translateY(+150px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+.mostrarDerecha{
+  animation: mostrarDerecha 1.5s;
+}
+
+
+@keyframes mostrarDerecha {
+  0% {
+    transform: translateX(+150px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.mostrarIzquierda{
+  animation: mostrarIzquierda 1.5s;
+}
+
+@keyframes mostrarIzquierda {
+  0% {
+    transform: translateX(-150px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 
 /* clases del header */
 
