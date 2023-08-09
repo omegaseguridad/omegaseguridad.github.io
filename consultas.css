@@ -1,7 +1,6 @@
 
 body{
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
   color: #666;
 }
 
@@ -64,11 +63,10 @@ ul {
 }
 
 #segu {
-  font-size: 140%
+  font-size: 1.3em;
 }
 
 #si-quieres{
-  font-size: 100%;
   color: rgba(0, 117, 153, 0.671);
 }
 /*lista canales de contacto*/
@@ -107,7 +105,7 @@ ul {
   width: 80%;
   height: 10%;
   margin-left: 10%;
-  font-size: 20px;
+  font-size: 1.3em;
   margin-top: 3vh;
   background-color: rgb(48, 45, 45);
   border-radius: 15px;
@@ -115,6 +113,7 @@ ul {
   color: rgb(207, 207, 207);
   cursor: pointer;
   box-shadow: 0px 0px 8px rgb(0, 0, 0);
+  transition: 0.6s;
 }
 
 .link:hover{
@@ -122,7 +121,6 @@ ul {
   transform: scale(1.02);
   transition-duration: 0.5s;
   color:rgba(0, 0, 0, 0.63);
-  font-size: 20px;
   border-color: #383838;
 }
 
@@ -133,7 +131,7 @@ background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,57,57,1) 100
 background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,57,57,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#393939",GradientType=1);
   color: white;
-  font-size: 13px;
+  font-size: 0.9em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,12 +156,12 @@ textarea:hover{
 
 
 #th3-real {
-  color: #00bac6 !important;
+  color: #00bac6 ;
   
 }
 
 #th3-rec{
-  color: #00bac6 !important;
+  color: #00bac6 ;
 }
 
 ul {
@@ -181,7 +179,7 @@ a {
 
 #escudo-f{
   width: 10em;
-  padding: .10em;
+
   border-radius: 50%;
 
 }
