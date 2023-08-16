@@ -1,17 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
-
-:root {
-  --red-pantone: hsla(355, 78%, 56%, 1);
-  --honeydew: hsla(105, 55%, 96%, 1);
-  --non-photo-blue: hsla(182, 43%, 76%, 1);
-  --cerulean: hsla(203, 39%, 44%, 1);
-  --berkeley-blue: hsla(215, 50%, 23%, 1);
-}
-
 body{
-    font-family: Open Sans,Arial,sans-serif;
-    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
     color: #666;
 }
 ul {
@@ -131,13 +120,12 @@ a {
 }
 
 #segu {
-  font-size: 140%
+  font-size: 1.3em;
 }
 
 #exp {
     background-color: rgb(240, 239, 239);
     font-size: 18px;
-
   }
 
 
@@ -148,7 +136,7 @@ background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,57,57,1) 100
 background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,57,57,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#393939",GradientType=1);
     color: white;
-    font-size: 13px;
+    font-size: 0.9em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,7 +161,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 }
 #th3{
   font-size: 30px;
-  color: #00bac6 !important;
+  color: #00bac6 ;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 25px;
@@ -189,12 +177,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 }
 
 #th3-real {
-  color: #00bac6 !important;
+  color: #00bac6 ;
   
 }
 
 #th3-rec{
-  color: #00bac6 !important;
+  color: #00bac6;
 }
 
 a {
@@ -209,7 +197,6 @@ a {
 
 #escudo-f{
   width: 10em;
-  padding: .10em;
   border-radius: 50%;
 
 }
