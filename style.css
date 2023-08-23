@@ -77,10 +77,13 @@ a {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2b80b8",endColorstr="#2ecae0",GradientType=1);
   padding-top: 40px;
   padding-bottom: 40px;
+  justify-content: center;
+  text-align: center;
 }
 
 #parr1 {
   color: rgba(0, 0, 0, 0.72) !important;
+  
 }
 
 #perso {
@@ -168,6 +171,8 @@ a {
 /*nuestros servicios*/
 #presentacion-organizacion {
   background-color: rgb(240, 239, 239);
+  justify-content: center;
+  text-align: center;
 }
 
 #th3 {
