@@ -1,4 +1,11 @@
 
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
     color: #666;
@@ -69,12 +76,50 @@ a {
   }
 }
 
+/*btn scroll top*/ 
+
+.btn-scrolltop {
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  padding: 15px 20px;
+  background-color: #383838;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15%;
+  cursor: pointer;
+  transform: translateX(200px);
+  transition: 0.5s;
+  z-index: 999;
+}
+
+.btn-scrolltop-on {
+  transform: translateX(0);
+}
 
 /* clases del header */
 
+.nav-item{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav{
+  transition: all .5s;
+}
+
+nav.header2{
+  font-size: 0.9em;
+}
+
+nav.header2 .logo{
+  width: 3em;
+}
+
+
 
 .logo {
-  width: 3em;
+  width: 4em;
   padding: .3em;
   border-radius: 50%;
 }
