@@ -228,11 +228,14 @@ nav.header2 .logo{
   font-size: 2em;
   color: #00bac6;
   text-align: center;
-  padding-top: 50px;
 }
 
 #img-servicios {
   width: 150px;
+}
+
+#img-habi{
+  min-width: 133px ;
 }
 
 #th3-real {
