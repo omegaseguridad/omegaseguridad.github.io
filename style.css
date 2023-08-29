@@ -133,7 +133,6 @@ nav.header2 .logo{
 
 #perso {
   padding-top: 100px;
-  padding-left: 90px;
 }
 
 .izq{
@@ -175,11 +174,12 @@ nav.header2 .logo{
 
 #text2 {
   color: #697979;
-  margin-bottom: 10px;
 }
 
 #capacitado {
-  
+  justify-content: center;
+  padding-left: 25px;
+  padding-right: 25px;
   transition: all 1.5s;
   background: rgb(236,246,255);
   background: radial-gradient(circle, rgba(236,246,255,1) 70%, rgba(255,255,255,1) 100%);
@@ -205,10 +205,8 @@ nav.header2 .logo{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 200px !important;
-  padding-bottom: 200px !important;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-top: 200px;
+  padding-bottom: 200px ;
   margin-top: 50px;
   margin-bottom: 50px;
   border-radius: 15px;
