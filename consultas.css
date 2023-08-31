@@ -245,3 +245,15 @@ body::-webkit-scrollbar-thumb{
   background: #00a2b1;
   border-radius: 5px;
 }
+
+@media (max-width:992px) {
+  #navbarNav{
+      padding-top: 30px;
+    }
+    .nav-link{
+      padding-bottom: 90px;
+      text-align: center;
+  
+    }
+  
+  }
