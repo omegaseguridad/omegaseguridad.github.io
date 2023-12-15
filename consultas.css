@@ -134,7 +134,7 @@ nav.header2 .logo{
   margin-bottom: 2vh;
   height: 450px;
   max-width: 500px;
-  box-shadow: 0px 0px 15px rgb(0, 0, 0);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
 }
 
 
