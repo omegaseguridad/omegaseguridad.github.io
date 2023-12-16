@@ -82,7 +82,7 @@ nav.header2 .logo{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  box-shadow: 0px 10px 112px rgb(0, 0, 0);
+  box-shadow: 0px 10px 112px rgba(0, 0, 0, 0.575);
   justify-content: end;
 
 }
@@ -100,7 +100,7 @@ nav.header2 .logo{
   padding-bottom: 20px;
   border-radius: 15px;
   margin-right: 100px;
-  box-shadow: 0px 0px 15px rgb(0, 0, 0);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.568);
 }
 
 @media (max-width:800px){
@@ -114,25 +114,27 @@ nav.header2 .logo{
   font-size: 1.3em;
 }
 
+#prese-div{
+  justify-content: center;
+  background: radial-gradient(circle, rgba(236,246,255,1) 70%, rgba(255,255,255,1) 100%);
+}
+
 #presentacion {
   background: rgba(43, 128, 184, 0.493);
   background: -moz-linear-gradient(0deg, rgba(43,128,184,1) 9%, rgba(46,202,224,1) 100%);
   background: -webkit-linear-gradient(0deg, rgba(43,128,184,1) 9%, rgba(46,202,224,1) 100%);
   background: linear-gradient(0deg, rgba(43, 128, 184, 0.295) 9%, rgba(46, 203, 224, 0.644) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2b80b8",endColorstr="#2ecae0",GradientType=1);
   padding-top: 40px;
   padding-bottom: 40px;
-  justify-content: center;
   text-align: center;
-}
-
-#parr1 {
-  color: rgba(0, 0, 0, 0.72) !important;
+  border-radius: 25px;
+  margin: 25px;
+  color: rgba(0, 0, 0, 0.72) !important; 
   
 }
 
 #perso {
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 .izq{
@@ -181,7 +183,6 @@ nav.header2 .logo{
   padding-left: 25px;
   padding-right: 25px;
   transition: all 1.5s;
-  background: rgb(236,246,255);
   background: radial-gradient(circle, rgba(236,246,255,1) 70%, rgba(255,255,255,1) 100%);
 }
 
