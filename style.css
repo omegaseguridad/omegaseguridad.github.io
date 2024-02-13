@@ -254,23 +254,25 @@ a {
 }
 
 
-.link2:hover{
-  color:#00bac6;
-}
 
 /* footer */
+
+#texto p{
+  color: white;
+}
+
 #copyright {
-  background: rgb(0,0,0);
-  background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,57,57,1) 100%);
-  background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,57,57,1) 100%);
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,57,57,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#393939",GradientType=1);
+  background-color: #2a2a2a;
   color: white;
   font-size: 0.9em;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
+}
+
+.link2:hover{
+  color:#00bac6;
 }
 
 #escudo-f{
