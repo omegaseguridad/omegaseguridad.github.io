@@ -168,19 +168,6 @@ nav.header2 .logo{
   border-color: #383838;
 }
 
-#copyright {
-  background: rgb(0,0,0);
-background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,57,57,1) 100%);
-background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,57,57,1) 100%);
-background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,57,57,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#393939",GradientType=1);
-  color: white;
-  font-size: 0.9em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
 
 
 #linea-personal {
@@ -217,19 +204,28 @@ a {
   color: rgb(255, 255, 255);
 }
 
+#texto p{
+  color: white;
+}
+
+#copyright {
+  background-color: #2a2a2a;
+  color: white;
+  font-size: 0.9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
 .link2:hover{
   color:#00bac6;
 }
 
 #escudo-f{
   width: 10em;
-
   border-radius: 50%;
 
-}
-
-#texto{
-  color: #666;
 }
 
 #formulario-consulta{
