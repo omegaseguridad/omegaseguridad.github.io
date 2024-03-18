@@ -82,8 +82,9 @@ header {
 
 @media (max-width: 768px) {
   .navbar-nav > li:hover {
-    background-color: #07c3e9a2;
+    background-color: var(--color-primario);
   }
+
 
 }
 
@@ -183,9 +184,7 @@ header {
 }
 
 /*cards*/ 
-.cards{
-  padding:50px 0px;
-}
+
 .card{
   padding: 10px;
   display: flex;
