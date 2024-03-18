@@ -35,16 +35,17 @@
   <link rel="stylesheet"
     href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
-  <!--boostrap-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
+  <!--ICONS BOOTSTRAP-->
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"/>
+
 
   <!--hoja de estilos -->
-  <link href="sobrenosotros.css" rel="stylesheet" type="text/css" />
+  <link href="./Css/sobrenosotros.css" rel="stylesheet" type="text/css" />
 
   <!--fonts-->
 
@@ -55,195 +56,224 @@
   <title>Omega - Sobre nosotros</title>
 </head>
 
-<body class="container-fluid">
+<body>
 
+  <header class="header fixed-top ">
+    <!-- MENU START  -->
+<nav class="navbar navbar-expand-lg data-bs-theme=light" >
+  <!-- NAV CONTAINER START -->
+  <div class="container">
+    <a href="https://www.google.com" class="navbar-brand"><img src="./img/logo-cos.png" alt="empresa de seguridad omega"></a>
 
-  <!-- barra-->
-  <section class="row position-relative" id="barra2">
+    <!-- NAV BUTTON  -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#menuLateral">
 
-    <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark    bg-dark " id="barra2">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- OFFCANVAS MAIN CONTAINER START -->
+    <section class="offcanvas offcanvas-start" id="menuLateral" tabindex="-1">
+      <div class="offcanvas-header" data-bs-theme="light">
+        <img src="./img/logo-cos.png" alt="omega seguridad">
 
-      <div class="nav2 container-fluid">
-        <img src="img/ESCUDO NUEVO.jpg" class="img-fluid logo" alt="cooperativa de seguridad omega">
-        <a class="navbar-brand text-light ms-3" href="https://cooperativaomega.com.ar/sobrenosotros">Omega</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: right;">
-          <ul class="navbar-nav" style="text-align: right">
-            <li class="nav-item px-3">
-              <a class="nav-link" aria-current="page" id="inicio" href="https://cooperativaomega.com.ar">Inicio</a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link active" href="https://cooperativaomega.com.ar/sobrenosotros">Sobre nosotros</a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="https://cooperativaomega.com.ar/nuestro-equipo">Nuestro equipo</a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="https://cooperativaomega.com.ar/consultas">Consultas</a>
-            </li>
-          </ul>
+        <button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="offcanvas" ></button>
+      </div>
+      <!-- OFF CANVAS MENU LINKS  START-->
+      <div
+        class="offcanvas-body d-flex flex-column justify-content-between px-5"
+      >
+        <ul class="navbar-nav fs-6 justify-content-end ">
+          <li class="nav-item p-3 py-md-1">
+            <a href="https://cooperativaomega.com.ar" class="nav-link">  INICIO</a>
+          </li>
+          <li class="nav-item p-3 py-md-1">
+            <a href="https://cooperativaomega.com.ar/sobrenosotros" class="nav-link active">SOBRE NOSOTROS</a>
+          </li>
+          <li class="nav-item p-3 py-md-1">
+            <a href="https://cooperativaomega.com.ar/consultas" class="nav-link">CONTACTO</a>
+          </li>
+        </ul>
+        <!-- enlaces redes sociales -->
+
+        <div class="d-lg-none align-self-center py-3 ">
+          <a href="https://www.facebook.com/coop.omegaseguridad" target="_blank"><i class="bi bi-facebook px-2 text-info fs-2"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=+5493516185067&amp;text= Hola, vi su pagina en la web y necesito saber si...: "
+          target="_blank"><i class="bi bi-whatsapp px-2 text-info fs-2"></i></a>
         </div>
       </div>
-    </nav>
-  </section>
-  <!--banner-->
-  <section>
-    <div class="row" id="bannertop">
-      
-      <div class="col-md-5 offset-md-7 text-center text-light shadow-lg" id="fondo">
-        <h1 id="text1">SOBRE NOSOTROS</h1>
-        <p id="segu">..."Quien no vive para servir, no sirve para vivir"...
-        </p>
-      </div>
-    </div>
-  </section>
-  <!--lista tilde celeste-->
-  <section class="container-fluid py-5" id="exp">
-    <div class="row center-exp">
-      <div class="caja-exp col-md-8 col-sm-10  py-4">
-        <h3 id="" class="py-3"> <i class="fa-solid fa-circle-check" style="color: #00fffb;">
-          </i> <strong> EXPERIENCIA</strong></h3>
+    </section>
+    <!-- OFFCANVAS MAIN CONTAINER END  -->
+  </div>
+</nav>
+</header>
 
-        <p>Lograda con una trayectoria de más de 30 años,
-          con presencia legal y calificada en forma continua.
-          Nos expandimos con servicios prestados por lo largo y ancho de la ciudad
-        </p>
+<!--BANNER-->
 
-      </div>
-      <div class="caja-exp articulo2 col-md-8  col-sm-10 py-4">
-
-        <h3 id="" class="py-4"> <i class="fa-solid fa-circle-check" style="color: #00fffb;">
-          </i> <strong> PROFESIONALIDAD</strong></h3>
-
-        <p>En el esfuerzo cotidiano de nuestro Asociados, que se capacitan
-          y ponen su empeño para elaborar una prestación plena, que resulte en la confiabilidad, seguridad
-          y confianza de quienes reciben nuestro servicio.
-        </p>
-      </div>
-
-      <div class="caja-exp izq col-md-8 col-sm-10 py-4">
-
-        <h3 class="py-4"><i class="fa-solid fa-circle-check" style="color: #00fffb;">
-          </i> <strong> CONFIDENCIALIDAD</strong></h3>
-
-        <p>Es nuestra tarea cuidar y proteger lo que se nos ha encomendado;
-          en esto nos empeñamos con todo énfasis, haciendo de la Prevención nuestra mejor aliada
-          y de la confidencialidad en el manejo de la información nuestra fuerza.
-        </p>
-      </div>
-    </div>
-
-  </section>
-  <!-- texto grande -->
-  <section class="container-fluid py-5">
-    <div class="row enCo">
-      <div class="articulo1 col-lg-10">
-        <p id="th3">Todo el personal en servicio es provisto de uniformes con distintivo de
-          la
-          Cooperativa
-          y es capacitado para manejar todo tipo de tecnología que se requiera para prestar eficientemente su servicio.
-        </p>
-        <p>
-          Cooperativa de Trabajo OMEGA SEGURIDAD Limitada es legalmente una persona jurídica constituida
-          como Cooperativa de Trabajo genuina y ésta asumirá, con sus asociados, todas las obligaciones
-          y derechos que surgen de su Estatuto Social y de la Ley 20.337 que la rige. Además es responsable del
-          control del cumplimiento del pago de los Aportes Previsionales de Autónomos y/o Monotributistas inherentes
-          a cada uno de sus asociados/trabajadores.
-        </p>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- texto del mapa de google maps-->
-
-  <section class="row" id="exp">
-      <div class="offset-lg-3 col-lg-6 offset-lg-3 align-items-center">
-        <div style="text-align: center;">
-          <h3 style="padding-top: 50px;">OMEGA SEGURIDAD</h3>
-        </div>
-      </div>
-
-    <!--linea divisora-->
-      <div id="line" class="offset-md-5 col-md-2 offset-sm-5 col-sm-2">
-        <div id="linea"> </div>
-      </div>
-
-
-
-  </section>
-
-  <!--mapa-->
-
-  <section class="row" id="exp">
-      <a id="mapa">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.321652668819!2d-64.
-          2078570848522!3d-31.405262881407868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432988
-          fe9cb6793%3A0xf1d33f93e3a24003!2sHualfin%20350%2C%20X5003GZF%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1571158630919!5m2!1ses-419!2sar"
-          width="1000" height="400"></iframe>
-      </a>
-
-  </section>
-
-  <section class="row" style="background: #303030;">
-
-  <div class="col-lg-4 col-md-4 py-4" id="texto">
-    <div class="col-lg-10 col-md-10 offset-md-1" style="text-align: center;">
-      <h4 id="th3-real">FLEXIBILIDAD</h4>
-
-      <p><strong>Nos ajustamos a las necesidades de cada cliente en particular de forma tal de
-        satisfacer cada demanda.</strong>
+<section class="banner">
+  <div class="overlay"></div>
+  <div class="content col-md-6 col-10">
+    <h1>SOBRE NOSOTROS</h1>
+    <p>
+      ..."Quien no vive para servir, no sirve para vivir"...
       </p>
-    </div>
-  </div> 
-
-  <div class="col-lg-4 col-md-4 py-3" style="display: grid; place-content: center;">
-    <img src="img/ESCUDO NUEVO.jpg" alt="omega seguridad" id="escudo-f">
+    <a href="https://cooperativaomega.com.ar/consultas" class="btn btn-primary">Contacto</a>
   </div>
-
-<div class="col-lg-4 col-md-4 col-sm-12 py-4" style="text-align: center;" >
-    
-  <div id="lista">
-    <h4 id="th3-rec">RECURSOS</h4>
-    <h6 class="link2 py-2"><a href="https://cooperativaomega.com.ar" class="link2">inicio</a></h6>
-    <h6 class="link2 py-2"><a href="https://cooperativaomega.com.ar/sobrenosotros" class="link2">Sobre nosotros</a></h6>
-    <h6 class="link2 py-2"><a href="https://cooperativaomega.com.ar/nuestro-equipo" class="link2">Nuestro equipo</a></h6>
-    <h6 class="link2 py-2"><a href="https://cooperativaomega.com.ar/consultas" class="link2">Contactanos</a></h6>
-  </div>
-  
- </div>
-
 </section>
 
-  <!--footer-->
+<!--INTRO-->
 
-  <footer class="row position-relative" id="menu">
+<div class="intro container-fluid" >
+  <div class="row intro-center" >
+    <div class="col-lg-9">
+      
+      <h3>
+        Cooperativa de Trabajo OMEGA Seguridad Limitada
+      </h3>
+      <p>
+        Creada con el objeto de brindar excelencia en los servicios de Seguridad y Vigilancia,
+         Conservación y Mantenimiento en Edificios, Fábricas, Clubes, Eventos, etc. <br>
+         Para brindar una alternativa más integral, nuestra entidad cuenta con distintos servicios, 
+         los que están asentados y aprobados por el Instituto de Asociativismo y Economía Social (INAES), 
+         en el orden Nacional, como así también a nivel Provincial; y, por supuesto, cuenta con personal 
+         idóneo seleccionado para la prestación de cada servicio.
+    </p>
+    </div>
+  </div>
+</div>
 
-    <!-- copyright -->
+<!--NUESTRO EQUIPO-->
 
-    <div class="row m-auto" id="copyright">
-      <div class="col">
-        <div class="text-center">© 2023 cooperativaomega.com.ar | Create & Designed By
-          <a href="https://blankfile.com.ar"
-  target="_blank" style="color: cyan;">Blank file</a>
+<div class="container py-5">
+
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h2>NUESTRO EQUIPO</h2>
+      <p>"Unidos en Cooperación, Forjando un Futuro Juntos"</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top img-fluid" src="./img/rodrigo.jpg" alt="presidente">
+        <div class="card-body text-center">
+          <h5 class="card-title">RODRIGO LUCIANO ONTIVERO</h5>
+          <h6 id="linea-personal"> </h6>
+          <p class="card-text"><strong>Presidente del Consejo de Administración.</strong> </p>
+         <p> Junto a sus consejeros son el motor y la conducción de Cooperativa de Trabajo
+          <strong>OMEGA SEGURIDAD Limitada</strong>.
+          Siempre justos y solidarios para con todos los asociados y con la visión puesta siempre
+          en un futuro de excelencia.
+        </p>
         </div>
       </div>
     </div>
-  </footer>
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top img-fluid" src="./img/dario-vigi.jpeg" alt="guardia de seguridad">
+        <div class="card-body text-center">
+          <h5 class="card-title">ASOCIADOS VIGILADORES</h5>
+          <h6 id="linea-personal"> </h6>
+          <p class="card-text"><strong>Hombres y mujeres que aportan honradamente su servicio para proteger a las
+            personas y los bienes.</strong></p>
+        <p>Con casi 100 asociados cubrimos las necesidades de <strong>servicio de Vigilancia
+            no armada y Control de Personal</strong> en todo lugar que nos requiera, sin importar condiciones climáticas
+          o de transporte para llegar al objetivo.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top img-fluid" src="./img/MARCELO-LIMPIEZA PAGINA.jpeg" alt="limpieza y porteria">
+        <div class="card-body text-center">
+          <h5 class="card-title">ASOCIADOS PORTEROS</h5>
+          <h6 id="linea-personal"> </h6>
+          <p class="card-text"><strong>Quienes desarrollan sus tareas en edificios y propiedades
+            horizontales.</strong></p>
+        <p >Hombres y mujeres que, con toda dedicación a su servicio, logran
+          <strong>ambientes limpios, sanos y confortables</strong> para hacer la vida de nuestros clientes mas digna y plena. Del mismo
+          modo se ocupan del embellecimiento de jardines, espacios verdes y pureza del agua de las piletas de natación.
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-  <button class="btn-scrolltop" id="btn_scrolltop">
-    <i class="fas fa-chevron-up"></i>
-  </button>
+<!--legales y eticos-->
+
+<div class="intro container-fluid" >
+  <div class="row intro-center" >
+    <div class="col-lg-9">
+      
+      <h3>
+        Aspectos legales y responsabilidades
+      </h3>
+      <p>
+        Cooperativa de Trabajo OMEGA Seguridad Limitada es legalmente una
+persona jurídica constituida como Cooperativa de Trabajo genuina y
+ésta asumirá, con sus asociados, todas las obligaciones y derechos que surgen
+de su Estatuto Social y de la Ley 20.337 que la rige y es responsable del
+control del cumplimiento del pago de los Aportes Previsionales de
+Autónomos y/o Monotributistas inherentes a cada uno de sus
+asociados-trabajadores.
+    </p>
+    </div>
+  </div>
+</div>
+
+ <!--FOOTER-->
+
+<footer class="container-fluid pre-footer" >
+  <div class="row p-5">
+ 
+   <div class="col-lg-4  py-3">
+     <img src="./img/escudo-png.png" alt=" cooperativa omega">
+   </div>
+   <div class="col-lg-4 text-center">
+     <h4>Flexibilidad y desempeño</h4>
+     <p>
+      Nos ajustamos a las necesidades de cada cliente en particular de forma tal de satisfacer cada demanda.<br> 
+      Estamos capacitados en todas las normas necesarias para nuestro buen desempeño.
+     </p>
+   </div>
+   <div class="col-lg-4  py-3" >
+     <h4 class="text-center">Recursos</h4>
+     <ul>
+       <li class="pb-3"><a href="https://cooperativaomega.com.ar">INICIO</a></li>
+       <li><a href="https://cooperativaomega.com.ar/sobrenosotros">SOBRE NOSOTROS</a></li>
+       <li class="pt-3"><a href="https://cooperativaomega.com.ar/consultas">CONTACTO</a></li>
+     </ul>
+   </div>
+  </div>
+   <!-- copyright -->
+ 
+   <div class="row " id="copyright">
+     <div class="col">
+       <div class="text-center">© 2023 cooperativaomega.com.ar | Create & Designed By
+         <a href="https://blankfile.com.ar"
+   target="_blank" style="color: cyan;">Blank file</a> 
+     </div>
+   </div>
+ 
+ </footer>
+ 
+ <!--scroll buttom-->
+ 
+ <button class="btn-scrolltop" id="btn_scrolltop">
+   <i class="fas fa-chevron-up"></i>
+ </button>
+
   
   
-  <script src="script.js"> </script>
-  <script src="nav.js"></script>
-  <script src="btn-scroll.js"></script>
+  <script src="./js/nav.js"></script>
+  <script src="./js/btn-scroll.js"></script>
+
+  <!--bootstrap script-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

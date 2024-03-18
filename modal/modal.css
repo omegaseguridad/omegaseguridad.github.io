@@ -14,7 +14,7 @@
     display: flex;
     display: grid;
     place-content: center;
-    animation: modal 2s 3s;
+    animation: modal 0.5s 1s;
     animation-fill-mode: forwards;
     visibility: hidden;
     opacity: 0;
@@ -47,7 +47,7 @@
     right: 25%;
     top: 18%;
     cursor: pointer;
-    animation: modal 2s 3s;
+    animation: modal 0.5s 1s;
     animation-fill-mode: forwards;
     visibility: hidden;
     opacity: 0;
