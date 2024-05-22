@@ -12,8 +12,8 @@
 
 
 body {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.2em;
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-size: 1.1em;
   color: #666;
 }
 
@@ -274,14 +274,13 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .notification {
+  line-height: 2.5;
   display: flex;
   flex-direction: column;
   isolation: isolate;
   position: relative;
-  height: 15rem;
   background: #29292c;
   border-radius: 1rem;
-  
   font-size: 16px;
   --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
   --color: #32a6ff
