@@ -211,17 +211,27 @@ header {
   width: 100px;
 }
 
+/* carrusel */
+
+.carru{
+  background-color: rgb(236, 234, 234);
+}
+
+.gal{
+  border-radius: 5px;
+  border: solid 2px #4464ab;
+  box-shadow: 5px 5px 5px #4465ab6b;
+}
+
 /*space*/
+
 .space {
   padding: 50px 25px;
-  background-color: rgb(236, 234, 234);
- 
- 
 }
 
 .space .container{
   padding-top: 30px;
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -233,8 +243,6 @@ header {
 .space img{
   height: 25px;
 }
-
-
 /*lista tildes*/
 
 .center-exp{
@@ -288,11 +296,13 @@ input[type=number]::-webkit-outer-spin-button {
   flex-direction: column;
   isolation: isolate;
   position: relative;
+  box-shadow: 5px 5px 5px #4465ab6b ;
   background: #29292c;
   border-radius: 5px;
   font-size: 16px;
   --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
   --color: #32a6ff
+  ;
 }
 
 .notification:before {
