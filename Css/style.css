@@ -151,6 +151,13 @@ header {
   background-color: rgba(0, 0, 0, 0.699); /* Color del fondo del cuadro */
 }
 
+@media(max-width:768px){
+  .content{
+    margin-top: 50px;
+  }
+}
+
+
 /*intro*/
 .intro{
   background-color: var(--color-primario);
