@@ -179,18 +179,26 @@ header {
 /*card*/
 
 .card {
-  border: none ;
-  overflow: hidden;
+  border: 2px solid #4464ab;
+  margin: 5px;
+  background-image: url(../img/wave.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .card-img-top {
-  border-radius: 50%;
-  height: 350px; /* Altura de la imagen circular */
-  width: 350px; /* Ancho de la imagen circular */
+  border-radius: 5px;
+  height: 200px; /* Altura de la imagen circular */
+  width: 200px; /* Ancho de la imagen circular */
   margin: 0 auto; /* Centrar la imagen */
   margin-top: 30px; /* Espacio superior */
   margin-bottom: 25px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.295);
+  box-shadow: 5px 5px 5px #4465ab6b;
 
+}
+
+.card strong{
+  color: #4464ab;
 }
 
 #linea-personal {
@@ -198,11 +206,21 @@ header {
   max-width: 155px;
   padding-top: 1px;
   padding-bottom: 15px;
-  margin-left: 90px;
+  margin-left: 30%;
   
 
 }
 
+.carru .carousel{
+  width: 70%;
+  margin: auto;
+}
+
+.carru .gal{
+  border-radius: 5px;
+  border: solid 2px #4464ab;
+  box-shadow: 5px 5px 5px #4465ab6b;
+}
 
 /*FOOTER*/
 
