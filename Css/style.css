@@ -80,6 +80,14 @@ header {
   transition: all 0.5s;
 }
 
+.d-lg-none i{
+  color: #4464ab;
+}
+
+.d-lg-none .bi-whatsapp{
+  color: #00c943;
+}
+
 @media (max-width: 768px) {
   .navbar-nav > li:hover {
     background-color: var(--color-primario);
@@ -186,18 +194,7 @@ header {
   .intro{
     height: 320px;
   }
-
-  .cards{
-    background-color: var(--color-primario);
-    padding: 5px;
-  }
-
-  .card{
-    max-height: 300px;
-  min-height: 250px;
-  }
 }
-
 /*cards*/ 
 
 .card{
@@ -206,8 +203,8 @@ header {
   justify-content: center;
   align-items: center;
   border: 2px solid #4464ab;
-  max-height: max-content;
-  min-height: min-content;
+  min-height: 400px;
+  background-color: #4465ab4b;
 }
 
 .card-body{
@@ -216,7 +213,25 @@ header {
 
 .card img{
   width: 100px;
+  display: flex;
+  margin: auto;
 }
+
+@media(max-width: 1199px){
+  .card{
+    height: 500px;
+  }
+}
+
+@media(max-width:991px){
+
+  .card{
+   max-height: 150px;
+   display:grid;
+   place-content: center;
+  }
+}
+
 
 /* carrusel */
 
@@ -232,24 +247,25 @@ header {
 
 /*space*/
 
-.space {
-  padding: 50px 25px;
-}
-
-.space .container{
-  padding-top: 30px;
+.space .row{
+  padding-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
-.space .container .col-md-4{
-  width: max-content;
+.space .row .col-md-4{
+display: flex;
+align-items: center;
+
 }
 
 .space img{
   height: 25px;
 }
+
+
 /*lista tildes*/
 
 .center-exp{
@@ -257,8 +273,6 @@ justify-content: center;
 }
 
 .caja-exp{
-
-margin-bottom: 25px;
 border-radius: 5px;
 border: 2px solid #4464ab;
 }
@@ -268,7 +282,7 @@ border: 2px solid #4464ab;
 }
 
 .center-exp p{
-padding-left: 40px;
+padding-left: 2px;
 }
 
 
@@ -308,8 +322,8 @@ input[type=number]::-webkit-outer-spin-button {
   border-radius: 5px;
   font-size: 16px;
   --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
-  --color: #32a6ff
-  ;
+  --color: #32a6ff;
+  width: 90%;
 }
 
 .notification:before {
