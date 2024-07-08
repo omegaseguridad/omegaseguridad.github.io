@@ -121,9 +121,9 @@
   .banner {
     margin-top: 5vh;
     position: relative;
-    height: 75vh; /* Banner ocupa toda la altura de la pantalla */
-    background-image: url('../img/guardia.jpg'); /* URL de la imagen de fondo */
-    background-size:COVER;
+    height: 60vh; /* Banner ocupa toda la altura de la pantalla */
+    background-image: url('../img/entrevista.jpg'); /* URL de la imagen de fondo */
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -164,127 +164,56 @@
       margin-top: 50px;
     }
   }
-  
-  
-  /*intro*/
-  .intro{
-    background-color: var(--color-primario);
-    display: flex;
-    align-items: center;
-    min-height: 182px;
-    
-    
-  }
-  .intro-center{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    
-  }
-  
-  .intro-center .col-lg-9{
-    text-align: center;
-    padding: 20px;
-    font-size: 20px;
-    color: white;
-    padding: 15px 10px 15px 10px;
-  }
-  
-  @media(max-width:768px){
-    .intro{
-      height: 320px;
-    }
-  }
-  /*cards*/ 
-  
-  .card{
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #4464ab;
-    min-height: 400px;
-    background-color: #4465ab4b;
-  }
-  
-  .card-body{
-    text-align: center;
-  }
-  
-  .card img{
-    width: 100px;
-    display: flex;
-    margin: auto;
-  }
-  
-  @media(max-width: 1199px){
-    .card{
-      height: 500px;
-    }
-  }
-  
-  @media(max-width:991px){
-  
-    .card{
-     max-height: 150px;
-     display:grid;
-     place-content: center;
-    }
-  }
-  
-  
-  /* carrusel */
-  
-  .carru{
-    background-color: rgb(236, 234, 234);
-  }
-  
-  .gal{
-    border-radius: 5px;
-    border: solid 2px #4464ab;
-    box-shadow: 5px 5px 5px #4465ab6b;
-  }
-  
-  /*space*/
-  
-  .space .row{
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-  }
-  
-  .space .row .col-md-4{
-  display: flex;
-  align-items: center;
-  
-  }
-  
-  .space img{
-    height: 25px;
-  }
-  
-  
-  /*lista tildes*/
-  
-  .center-exp{
-  justify-content: center;
-  }
-  
-  .caja-exp{
-  border-radius: 5px;
-  border: 2px solid #4464ab;
-  }
-  
-  .caja-exp i{
-   color: var(--color-primario);
-  }
-  
-  .center-exp p{
-  padding-left: 2px;
-  }
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
   
   
   /*formulario*/
