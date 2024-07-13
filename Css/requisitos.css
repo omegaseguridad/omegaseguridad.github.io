@@ -165,56 +165,24 @@
     }
   }
 
+  /* requisitos */
 
+.requi-contenedor .row{
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
 
+.requisitos{
+  background-color: #4465ab8e;
+  border-radius: 7px;
+}
 
+.requisitos   ul {
+  list-style-type:square;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
   
+}
   
   /*formulario*/
   
