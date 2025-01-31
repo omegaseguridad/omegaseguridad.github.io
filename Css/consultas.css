@@ -197,8 +197,9 @@ input[type=number]::-webkit-outer-spin-button {
   flex-direction: column;
   isolation: isolate;
   position: relative;
+  box-shadow: 5px 5px 5px #4465ab6b ;
   background: #29292c;
-  border-radius: 1rem;
+  border-radius: 5px;
   font-size: 16px;
   --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
   --color: #32a6ff
